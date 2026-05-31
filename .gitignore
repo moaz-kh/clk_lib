@@ -1,0 +1,29 @@
+# Simulation artefacts
+*.vvp
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.gtkw
+sim/logs/*.log
+
+# Synthesis / PnR / bitstream artefacts
+backend/synth/*.json
+backend/synth/*.v
+backend/synth/*.ys
+backend/pnr/*.asc
+backend/pnr/*.config
+backend/pnr/*.json
+backend/bitstream/*.bin
+backend/bitstream/*.bit
+backend/bitstream/*.fs
+backend/reports/*.log
+backend/reports/*.rpt
+backend/reports/*.json
+ 
+
+# OS / editor noise
+.DS_Store
+*.swp
+*.swo
+*~
